@@ -1,0 +1,30 @@
+{
+  "name": "codename-to-emoji",
+  "version": "0.1.0",
+  "description": "Replaces codename character sequences with UTF-8 emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "prepare": "node build.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgpinkus/codename-to-emoji.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgpinkus/codename-to-emoji/"
+  },
+  "homepage": "https://github.com/sgpinkus/codename-to-emoji/",
+  "keywords": [
+    "emoji"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "node-emoji": "^1.10.0"
+  },
+  "dependencies": {}
+}
